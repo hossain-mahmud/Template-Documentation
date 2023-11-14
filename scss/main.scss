@@ -1,0 +1,163 @@
+@forward "./base/index";
+@use "./util/index";
+
+.section_head {
+    h2 {
+        font-size: 30px;
+        font-weight: 600;
+        font-family: index.$poppins;
+        color: index.$Primary_Color;
+
+        span {
+            a {
+                font-size: 18px;
+                color: index.$brand_color;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    hr {
+        width: 100%;
+        border: 1px solid gray;
+    }
+}
+
+.section_paragraph {
+    p {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: index.$poppins;
+        color: index.$secondary_color;
+    }
+}
+// === nav menu css start ===
+.nav_items {
+    padding: 30px 0;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+
+        li {
+            a {
+                font-size: 18px;
+                font-weight: 500;
+                font-family: index.$poppins;
+                color: index.$Primary_Color;
+            }
+        }
+    }
+}
+
+// --- nav menu css end ---
+// === banner menu css start ===
+#banner {
+    background: url(../images/bg_2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+}
+
+.banner_logo {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.banner_text {
+    margin: 10px 0;
+    text-align: center;
+
+    h1 {
+        font-size: 50px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-family: index.$poppins;
+        color: index.$Primary_Color;
+        margin-bottom: 5px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: index.$poppins;
+        color: index.$secondary_color;
+    }
+}
+
+.support_button {
+    text-align: center;
+
+    a {
+        width: 120px;
+        padding: 12px;
+        border-radius: 30px;
+        background: index.$brand_color;
+        border: 1px solid index.$brand_color;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: index.$poppins;
+        color: #fff;
+        transition: all linear .3s;
+    }
+
+    a:hover {
+        background: transparent;
+        color: index.$Primary_Color;
+    }
+}
+
+// --- banner menu css end ---
+// === informations css start ===
+#informations {
+    padding: 70px 0;
+}
+
+// --- informations css end ---
+// === structure css start ===
+#structure {
+    padding-bottom: 70px;
+}
+
+.structure_image {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+// --- structure css end ---
+// === structure css start ===
+
+
+
+
+
+
+
+
+
+
+
+// --- structure css end ---
+// === structure css start ===
+
+
+
+
+
+
+
+
+
+
+
+// --- structure css end ---
